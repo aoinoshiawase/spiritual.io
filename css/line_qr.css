@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+header {
+  border-bottom: 3px solid black;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.line-title {
+  font-family: 'Volte', sans-serif;
+  color: #00B900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  text-align: center;
+}
+
+.qr-img {
+  display: inline-block;
+  margin-top: 20px;
+  border: solid #bbbbbb;
+}
+
+.main p {
+  color: #888888;
+}
+
+.main a {
+  color: blue;
+}
+
+.linenituite {
+  margin-right: 20px;
+}

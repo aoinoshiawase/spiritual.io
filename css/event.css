@@ -219,11 +219,6 @@ header {
   padding-top: 10px;
 }
 
-.main p {
-  /* display: inline-block; */
-  /* vertical-align: top; */
-}
-
 .contents-title {
   font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
   font-size: 40px;
@@ -277,7 +272,20 @@ h3 {
   background-color: rgb(196, 127, 0);
 }
 
-.hiratsuka-spiritual {
+.hiratsuka-spiritual-img {
+  display: inline;
+}
+
+.hiratsuka-spiritual-contents {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.hiratsuka-spiritual-contents p {
+  text-align: left;
+  margin: 0px;
 }
 
 .faq {

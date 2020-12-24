@@ -181,9 +181,15 @@ header {
 }
 
 #sub-name {
+  /* ↓↓2020/12/24追加 */
+  text-align: center;
+  /* ↑↑2020/12/24追加 */
   font-size: 45px;
   /* margin-left: 600px; */
-  margin-left: 50%;
+  /* ↓↓2020/12/24変更 */
+  /* margin-left: 50%; */
+  margin-left: 30%;
+  /* ↑↑2020/12/24変更 */
   color: white;
   animation  : name-tag 4s linear infinite alternate;
 }

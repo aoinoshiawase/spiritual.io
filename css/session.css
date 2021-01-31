@@ -165,7 +165,12 @@ header {
 
 .title {
   height: 640px;
-  background-image: url("../image/beauty_1574151366161.jpeg");
+
+  /* ↓↓2021/1/12変更 */
+  /* background-image: url("../image/beauty_1574151366161.jpeg"); */
+  background-image: url("../image/S__167280681.jpg");
+  /* ↑↑2021/1/12変更 */
+
   background-size: cover;
   opacity: 0.6;
 }
@@ -184,7 +189,12 @@ header {
   /* ↓↓2020/12/24追加 */
   text-align: center;
   /* ↑↑2020/12/24追加 */
-  font-size: 45px;
+
+  /* ↓↓2021/1/12変更 */
+  /* font-size: 45px; */
+  font-size: 40px;
+  /* ↑↑2021/1/12変更 */
+
   /* margin-left: 600px; */
   /* ↓↓2020/12/24変更 */
   /* margin-left: 50%; */
@@ -338,6 +348,27 @@ header {
 .kuwashikumiru-exorcism:hover {
   background-color: rgb(196, 127, 0);
 }
+
+/* ↓↓2021/1/13追加 */
+.exorcism-change-contents {
+  display: inline-block;
+  text-align: left;
+}
+
+.exorcism-change-contents p {
+  margin-top: 0px;
+}
+
+.exorcism-fee-supplement {
+  display: inline-block;
+  text-align: left;
+  color: red;
+}
+
+.exorcism-fee-supplement p {
+  margin: 0px;
+}
+/* ↑↑2021/1/13追加 */
 
 .exorcism-fee span{
   font-weight: lighter;

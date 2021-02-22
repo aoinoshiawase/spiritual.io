@@ -19,53 +19,6 @@ header {
   padding: 0px;
 }
 
-/* header {
-  max-width: 100%;
-  margin: 0px;
-  padding: 0px;
-  position: fixed;
-  z-index: 11; 
-}
-
-.global_navi { 
-  max-width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
-.global_navi ul {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-
-.global_navi ul li{
-  flex: 1 0 auto;
-  float: left;
-  list-style-type: none;
-  width: 29%;
-}
-
-.global_navi ul li a{
-  font-weight: bold;
-  font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
-  display: block;
-  padding: 16px;
-  list-style-type: none;
-  text-decoration: none;
-  background-color: pink;
-  color: rgb(214, 66, 177);
-}
-
-.global_navi ul li.current a {
-  background-color: #eeafbc;
-}
-
-.global_navi ul li a:hover {
-  background-color: #eeafbc;
-}  */
-
 #menu{
   list-style-type: none;
   width: 100%;
@@ -90,7 +43,6 @@ header {
   margin: 0;
   padding: 16px 0;
   color: rgb(214, 66, 177);
-  /* font-size: 14px; */
   font-weight: bold;
   line-height: 1;
   text-decoration: none;
@@ -109,7 +61,6 @@ header {
   padding: 0;
 }
 #menu li:last-child ul{
-  /* left: -100%; */
   width: 100%
 }
 #menu li ul li{
@@ -163,57 +114,49 @@ header {
   border-bottom: 0;
 }
 
+/* ここまでグローバルナビ */
+
 .title {
-  height: 640px;
-
-  /* ↓↓2021/1/12変更 */
-  /* background-image: url("../image/beauty_1574151366161.jpeg"); */
+  height: 100%;
   background-image: url("../image/S__167280681.jpg");
-  /* ↑↑2021/1/12変更 */
-
   background-size: cover;
   opacity: 0.6;
 }
 
 .name-tag {
-  /* position: absolute; */
-  /* text-align: center; */
-  margin-left: 10%;
   padding-top: 7%;
   font-family: 'HGP行書体';
   color: white;
-  /* z-index: 11px; */
 }
 
 #sub-name {
-  /* ↓↓2020/12/24追加 */
   text-align: center;
-  /* ↑↑2020/12/24追加 */
-
-  /* ↓↓2021/1/12変更 */
-  /* font-size: 45px; */
   font-size: 40px;
-  /* ↑↑2021/1/12変更 */
-
-  /* margin-left: 600px; */
-  /* ↓↓2020/12/24変更 */
-  /* margin-left: 50%; */
-  margin-left: 30%;
-  /* ↑↑2020/12/24変更 */
+  text-align: center;
+  margin-top: 50px;
   color: white;
   animation  : name-tag 4s linear infinite alternate;
 }
 
 #name {
-  font-size: 170px;
-  /* margin-left: 600px; */
-  margin-left: 60%;
+  font-size: 1200%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
   color: white;
   animation  : name-tag 4s linear infinite alternate;
 }
 
 .name-ruby {
   font-size: 30px;
+}
+
+.name-contents {
+  font-size: 200%;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-bottom: 5%;
+  animation  : name-tag 4s linear infinite alternate;
 }
 
 @keyframes name-tag{
@@ -329,7 +272,6 @@ footer {
 }
 
 .footer-menu {
-  /* float: left; */
   padding-top: 40px;
   margin-left: 7%;
   width: 33%;
@@ -379,7 +321,6 @@ footer {
 }
 
 .link-name {
-  /* background-color: red; */
   text-align: center;
   padding: 0px;
   margin-top: 0px;
@@ -391,8 +332,6 @@ footer {
 .footer-name {
   float: right;
   position: relative;
-  /* display: inline-block; */
-  /* vertical-align: top; */
   margin-right: 15%;
   top: -500px;
 }

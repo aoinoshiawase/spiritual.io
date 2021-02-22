@@ -9,14 +9,15 @@ header {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  position: fixed;
-  z-index: 11; 
 }
 
 .global_navi {
+  width: 100%;
   max-width: 100%;
   margin: 0px;
   padding: 0px;
+  position: fixed;
+  z-index: 11; 
 }
 
 #menu{
@@ -117,14 +118,13 @@ header {
 /* ここまでグローバルナビ */
 
 .title {
-  height: 640px;
+  height: 100%;
   background-image: url("../image/S__167280681.jpg");
   background-size: cover;
   opacity: 0.6;
 }
 
 .name-tag {
-  margin-left: 10%;
   padding-top: 7%;
   font-family: 'HGP行書体';
   color: white;
@@ -133,20 +133,31 @@ header {
 #sub-name {
   text-align: center;
   font-size: 40px;
-  margin-left: 30%;
+  text-align: center;
+  margin-top: 50px;
   color: white;
   animation  : name-tag 4s linear infinite alternate;
 }
 
 #name {
-  font-size: 170px;
-  margin-left: 60%;
+  font-size: 1200%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
   color: white;
   animation  : name-tag 4s linear infinite alternate;
 }
 
 .name-ruby {
   font-size: 30px;
+}
+
+.name-contents {
+  font-size: 200%;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-bottom: 5%;
+  animation  : name-tag 4s linear infinite alternate;
 }
 
 @keyframes name-tag{

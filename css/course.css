@@ -226,6 +226,32 @@ header {
   color: #555555;
 }
 
+.goddess-healing-discription {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.goddess-healing-discription p {
+  margin: 0px;
+}
+
+.goddess-healing-contents-contents {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.goddess-healing-contents-contents p {
+  margin: 0px;
+  text-align: left;
+  color: #555555;
+}
+
+.goddess-healing-contents-contents ul {
+  text-align: left;
+  margin-left: 20px;
+  color: #555555;
+}
+
 .event-contents-contents {
   display: inline-block;
   vertical-align: top;

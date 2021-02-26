@@ -299,6 +299,11 @@ header {
   color: red;
 }
 
+.purification-fee-supplement {
+  text-align: left;
+  color: red;
+}
+
 .exorcism-fee-supplement p {
   margin: 0px;
 }
